@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  background: url("https://contentservice.mc.reyrey.net/image_v1.0.0/?id=1d094f1c-ef69-5fbc-8415-a208981017ac&637599712902936525"), #4f9789;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+#container * {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  position: absolute;
+  filter: drop-shadow(0 0 1px black);
+}
+
+video {
+  height: 480px !important;
+  position: absolute;
+  transform: translate(-50%, -40%) !important;
+  box-sizing: border-box;
+  border: 3px solid black;
+  z-index: -1;
+}
